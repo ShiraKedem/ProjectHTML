@@ -1,0 +1,62 @@
+#pictur > img {
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+  margin: 0.5%;
+  width: 23.1%;
+  margin-right: 1%;
+}
+#pictur > img:hover {
+  opacity: 0.7;
+  border: 3px double white;
+  transition: 0.5s;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 800px) {
+  #pictur > img {
+    width: 48.1%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #pictur > img {
+    width: 100%;
+  }
+}
+#articl {
+  text-align: center;
+}
+.snif:hover {
+  width: 18.5vw;
+  transition: 1s;
+}
+.snif {
+  font-weight: 100;
+  display: flex;
+  display: inline-block;
+  flex: 4;
+  justify-content: space-between;
+  padding: 2%;
+  border-right: 2px gold groove;
+  width: 18vw;
+  font-size: large;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.m {
+  width: 20px;
+  height: 30px;
+}
+.img:hover {
+  opacity: 0.5;
+}
+@media only screen and (max-width: 1193px) {
+  #link {
+    width: 150px;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .snif {
+    width: 100%;
+  }
+}

@@ -1,0 +1,105 @@
+#img {
+  width: 98.9vw;
+  height: 85%;
+}
+#img2 {
+  height: 80%;
+}
+#articl {
+  margin-left: 3.5%;
+  display: flex;
+}
+#p {
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 22.5px;
+  padding: 3%;
+}
+h1 {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+  text-shadow: 2px 2px 4px #040404;
+}
+body {
+  background-color: rgb(76, 74, 74);
+}
+iframe {
+  margin: 3.5%;
+  width: 25%;
+  height: 30vh;
+}
+.logo {
+  margin: 2%;
+  width: 9vw;
+  height: 12vh;
+}
+#la {
+  margin: 3%;
+
+  border-top: solid white 2px;
+  border-left: solid white 2px;
+}
+#myased {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#img3 {
+  margin: 1%;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+  border: white double 3px;
+}
+iframe {
+  border: white double 3px;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+}
+@media only screen and (max-width: 1200px) {
+  #p {
+    font-size: 15px;
+  }
+  h1 {
+    font-size: x-large;
+  }
+  #articl {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #p {
+    font-size: 15px;
+  }
+
+  .logo {
+    margin: 3%;
+    width: 23%;
+    height: 15%;
+  }
+  iframe {
+    margin-right: 25%;
+    width: 50%;
+    height: 50%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  iframe {
+    margin-right: 15%;
+    width: 70%;
+    height: 30%;
+  }
+  #img3 {
+    width: 60%;
+    height: 40%;
+  }
+  iframe {
+    margin-right: 15%;
+    width: 70%;
+    height: 30%;
+  }
+}

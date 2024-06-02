@@ -1,0 +1,139 @@
+#back1 {
+  object-fit: cover;
+  height: 88vh;
+  width: 98.9vw;
+}
+#articl {
+  direction: ltr;
+  color: rgb(236, 236, 236);
+  margin-top: 5%;
+  margin-left: 0%;
+  margin-right: 5%;
+  height: 58vh;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#header {
+  height: 80vh;
+}
+#whirte {
+  flex-direction: column;
+  font-size: 115%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0%;
+}
+#img {
+  margin: 0%;
+  height: 58vh;
+  width: 60vw;
+}
+#about {
+  border: 3px solid rgb(240, 197, 53);
+  border-radius: 17px 17px 17px 17px;
+  padding: 1%;
+  font-size: larger;
+}
+#all {
+  margin-top: 0%;
+  direction: rtl;
+  display: flex;
+  margin-bottom: 0%;
+}
+.tip {
+  flex: 4;
+  border-left: 3px rgb(240, 197, 53) groove;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: aliceblue;
+}
+
+#store {
+  display: flex;
+  background-image: url(AdobeStock_386665945_Preview.jpeg);
+  background-repeat: no-repeat;
+  margin-top: 5%;
+  color: rgb(0, 0, 0);
+  background-size: 100%;
+}
+
+.city:hover {
+  width: 40vw;
+}
+
+.city {
+  transition: width 2s;
+  font-size: 130%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  margin: 2%;
+  background-color: rgb(20, 19, 22);
+  opacity: 0.7;
+  width: 30vw;
+  height: 45vh;
+  color: white;
+  border-radius: 10px 10px 10px 10px;
+  border: 5px double wheat;
+}
+
+@media only screen and (max-width: 1032px) {
+  #articl {
+    flex-direction: column;
+    margin-top: 3%;
+  }
+  #whirte {
+    display: flex;
+    flex-direction: column;
+  }
+  #img {
+    width: 100%;
+  }
+  #all {
+    margin-top: 40%;
+    flex-direction: column;
+  }
+  #store {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 830px) {
+  #store {
+    background-image: none;
+    justify-content: center;
+  }
+  #header {
+    margin: 5%;
+    height: 100vh;
+  }
+  #store {
+    flex-wrap: wrap;
+  }
+  #logo {
+    width: 50px;
+  }
+}
+
+@media only screen and (max-width: 665px) {
+  #back1 {
+    height: 44vh;
+  }
+  #all {
+    margin-top: 0%;
+  }
+  #whirte {
+    font-size: small;
+  }
+  #store {
+    font-size: xx-small;
+  }
+  .city {
+    height: 35vh;
+  }
+}
